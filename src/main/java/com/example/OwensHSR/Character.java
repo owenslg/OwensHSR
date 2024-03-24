@@ -65,4 +65,14 @@ public class Character {
         this.faction = faction;
     }
 
+    @Override
+    public String toString() {
+        return "Character{" +
+                "name='" + name + '\'' +
+                ", path='" + path + '\'' +
+                ", rarity=" + rarity +
+                ", element='" + element + '\'' +
+                ", faction='" + faction + '\'' +
+                '}';
+    }
 }
