@@ -15,7 +15,7 @@ public class CharacterConfig {
         return args ->
         {
              Character welt = new Character(
-                    "Welt",
+                    "welt",
                      "Nihility",
                      5,
                      "Imaginary",
@@ -23,7 +23,7 @@ public class CharacterConfig {
             );
 
             Character himeko = new Character(
-                    "Himeko",
+                    "himeko",
                     "Erudition",
                     5,
                     "Fire",
